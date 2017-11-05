@@ -21,7 +21,6 @@
         "onCommand:extension.TouchBar.showPreview"
     ],
     "main": "./out/extension",
-    "icon": "images/TouchBar128.png",
     "contributes": {
         "commands": [
             {
