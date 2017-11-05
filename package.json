@@ -27,7 +27,7 @@
         "onCommand:extension.TouchBar.3_showPreview"
     ],
     "main": "./out/extension",
-    "icon": "https://github.com/sverrisson/mac-touchbar-commands/blob/master/src/images/TouchBar128.png?raw=true",
+    "icon": "TouchBar128.png",
     "contributes": {
         "commands": [
             {
