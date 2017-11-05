@@ -32,7 +32,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     // Use the console to output diagnostic information (console.log) and errors (console.error)
     // This line of code will only be executed once when your extension is activated
-    console.log('Commands: ' + touchbar.length);
+    // console.log('Commands: ' + touchbar.length);
     //commands.forEach((cmd) => console.log(cmd.name));
 
     // The command has been defined in the package.json file
@@ -40,7 +40,7 @@ export function activate(context: vscode.ExtensionContext) {
     // The commandId parameter must match the command field in package.json
     touchbar.forEach(
         (cmd) => {
-            console.log("skipun: " + cmd.command);
+            // console.log("skipun: " + cmd.command);
             let command = vscode.commands.registerCommand(cmd.command, 
                 () => {
                 vscode.commands.executeCommand(cmd.action)
