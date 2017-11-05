@@ -12,7 +12,7 @@ Commands -> Open the command pallette.
 Preview -> Show Markdown Preview
 ```
 
--\!\[Touch Bar with commands\]\(https://github.com/sverrisson/mac-touchbar-commands/blob/master/src/images/Touch%20Bar%20Commands.png\)
+![Touch Bar with commands](https://github.com/sverrisson/mac-touchbar-commands/blob/master/src/images/TouchBarCommands.png?raw=true "Touch Bar with commands")
 
 ## Requirements
 
