@@ -18,7 +18,7 @@
         "onCommand:extension.TouchBar.Comment",
         "onCommand:extension.TouchBar.Qopen",
         "onCommand:extension.TouchBar.Commands",
-        "onCommand:markdown.showPreview"
+        "onCommand:extension.TouchBar.showPreview"
     ],
     "main": "./out/extension",
     "icon": "images/TouchBar128.png",
