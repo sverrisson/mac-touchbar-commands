@@ -9,23 +9,23 @@ export function activate(context: vscode.ExtensionContext) {
 
     let touchbar = [
         {
-            'command': 'extension.TouchBar.Term',
+            'command': 'extension.TouchBar.0_Term',
             'action': 'workbench.action.terminal.toggleTerminal'
         },
         {
-            'command': 'extension.TouchBar.Comment',
+            'command': 'extension.TouchBar.4_Comment',
             'action': 'editor.action.commentLine'
         },
         {
-            'command': 'extension.TouchBar.Qopen',
+            'command': 'extension.TouchBar.2_Qopen',
             'action': 'workbench.action.quickOpen'
         },
         {
-            'command': 'extension.TouchBar.Commands',
+            'command': 'extension.TouchBar.1_Commands',
             'action': 'workbench.action.showCommands'
         },
         {
-            'command': 'extension.TouchBar.showPreview',
+            'command': 'extension.TouchBar.3_showPreview',
             'action': 'markdown.showPreview'
         }
     ]

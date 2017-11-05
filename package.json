@@ -2,7 +2,7 @@
     "name": "mac-touchbar-commands",
     "displayName": "Mac Touch Bar Commands",
     "description": "Mac Touch Bar Commands for a faster workflow with useful commands.",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "publisher": "sverrisson-ruv",
     "author": {
         "name": "Hannes Sverrisson"
@@ -14,56 +14,56 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.TouchBar.Term",
-        "onCommand:extension.TouchBar.Comment",
-        "onCommand:extension.TouchBar.Qopen",
-        "onCommand:extension.TouchBar.Commands",
-        "onCommand:extension.TouchBar.showPreview"
+        "onCommand:extension.TouchBar.0_Term",
+        "onCommand:extension.TouchBar.4_Comment",
+        "onCommand:extension.TouchBar.2_Qopen",
+        "onCommand:extension.TouchBar.1_Commands",
+        "onCommand:extension.TouchBar.3_showPreview"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.TouchBar.Term",
+                "command": "extension.TouchBar.0_Term",
                 "title": "Term"
             },
             {
-                "command": "extension.TouchBar.Comment",
+                "command": "extension.TouchBar.4_Comment",
                 "title": "//"
             },
             {
-                "command": "extension.TouchBar.Qopen",
+                "command": "extension.TouchBar.2_Qopen",
                 "title": "Qopen"
             },
             {
-                "command": "extension.TouchBar.Commands",
+                "command": "extension.TouchBar.1_Commands",
                 "title": "Commands"
             },
             {
-                "command": "extension.TouchBar.showPreview",
+                "command": "extension.TouchBar.3_showPreview",
                 "title": "Preview"
             }
         ],
         "menus": {
             "touchBar": [
                 {
-                    "command": "extension.TouchBar.Term",
+                    "command": "extension.TouchBar.0_Term",
                     "group": "9_touchbar"
                 },
                 {
-                    "command": "extension.TouchBar.Comment",
+                    "command": "extension.TouchBar.4_Comment",
                     "group": "9_touchbar"
                 },
                 {
-                    "command": "extension.TouchBar.Qopen",
+                    "command": "extension.TouchBar.2_Qopen",
                     "group": "9_touchbar"
                 },
                 {
-                    "command": "extension.TouchBar.Commands",
+                    "command": "extension.TouchBar.1_Commands",
                     "group": "9_touchbar"
                 },
                 {
-                    "command": "extension.TouchBar.showPreview",
+                    "command": "extension.TouchBar.3_showPreview",
                     "group": "9_touchbar"
                 }
             ]

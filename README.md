@@ -5,11 +5,12 @@ Touch Bar commands for easy and fast access.
 ## Features
 
 Touch Bar commands for easy and fast access. 
-Term -> Toggle the built in terminal on/off.
+```Term -> Toggle the built in terminal on/off.
 // -> Toggle comments on selected lines on/off.
 Qopen -> Quick Open any file etc.
 Commands -> Open the command pallette.
 Preview -> Show Markdown Preview
+```
 
 ## Requirements
 
