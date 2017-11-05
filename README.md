@@ -12,13 +12,15 @@ Commands -> Open the command pallette.
 Preview -> Show Markdown Preview
 ```
 
+-\!\[Touch Bar with commands\]\(https://github.com/sverrisson/mac-touchbar-commands/blob/master/src/images/Touch%20Bar%20Commands.png\)
+
 ## Requirements
 
 A computer or keyboard with Touch Bar is required.
 
-## Known Issues
+## Source
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Please send requests for commands or changes on Github: https://github.com/sverrisson/mac-touchbar-commands
 
 ## Release Notes
 
