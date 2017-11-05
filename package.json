@@ -1,0 +1,110 @@
+{
+    "name": "mac-touchbar-commands",
+    "displayName": "Mac Touch Bar Commands",
+    "description": "Mac Touch Bar Commands for a faster workflow with useful commands.",
+    "version": "0.0.1",
+    "publisher": "sverrisson-ruv",
+    "author": {
+        "name": "Hannes Sverrisson"
+    },
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.TouchBar.Term",
+        "onCommand:extension.TouchBar.Comment",
+        "onCommand:extension.TouchBar.Qopen",
+        "onCommand:extension.TouchBar.Commands",
+        "onCommand:markdown.showPreview"
+    ],
+    "main": "./out/extension",
+    "icon": "images/TouchBar128.png",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.TouchBar.Term",
+                "title": "Term",
+                "icon": {
+                    "light": "./images/noun_741575_cc.svg",
+                    "dark": "./images/noun_741575_cc.svg"
+                }
+            },
+            {
+                "command": "extension.TouchBar.Comment",
+                "title": "//",
+                "icon": "images/TouchbarIcon22@2.png"
+            },
+            {
+                "command": "extension.TouchBar.Qopen",
+                "title": "Qopen"
+            },
+            {
+                "command": "extension.TouchBar.Commands",
+                "title": "Commands"
+            },
+            {
+                "command": "markdown.showPreview",
+                "title": "Preview"
+            }
+        ],
+        "menus": {
+            "touchBar": [
+                {
+                    "command": "extension.TouchBar.Term",
+                    "group": "navigation",
+                    "icon": "images/TouchbarIcon22@2.png"
+                },
+                {
+                    "command": "extension.TouchBar.Comment",
+                    "when": "editorHasSelection",
+                    "group": "1_modification",
+                    "icon": "./images/TouchbarIcon22@2.png"
+                },
+                {
+                    "command": "extension.TouchBar.Qopen",
+                    "group": "navigation"
+                },
+                {
+                    "command": "extension.TouchBar.Commands",
+                    "group": "navigation"
+                },
+                {
+                    "command": "markdown.showPreview",
+                    "when": "editorLangId == markdown",
+                    "group": "navigation",
+                    "icon": {
+                        "light": "./images/noun_741575_cc.svg",
+                        "dark": "./images/noun_741575_cc.svg"
+                    }
+                  }
+            ],
+            "commandPalette": [
+                {
+                    "command": "extension.TouchBar.Term",
+                    "group": "navigation"
+                },
+                {
+                    "command": "extension.TouchBar.Comment",
+                    "when": "editorHasSelection",
+                    "group": "1_modification"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.5.3",
+        "vscode": "^1.1.5",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
