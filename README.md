@@ -9,7 +9,7 @@ Term -> Toggle the built in terminal on/off.
 // -> Toggle comments on selected lines on/off.
 Qopen -> Quick Open any file etc.
 Commands -> Open the command pallette.
-Preview -> Toggle Markdown Preview
+Preview -> Show Markdown Preview
 
 \!\[Touch Bar with commands\]\(images/Touch Bar Commands.png\)
 

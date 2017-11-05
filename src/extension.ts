@@ -25,7 +25,7 @@ export function activate(context: vscode.ExtensionContext) {
             'action': 'workbench.action.showCommands'
         },
         {
-            'command': 'markdown.showPreview',
+            'command': 'extension.TouchBar.showPreview',
             'action': 'markdown.showPreview'
         }
     ]

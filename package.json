@@ -41,7 +41,7 @@
                 "title": "Commands"
             },
             {
-                "command": "markdown.showPreview",
+                "command": "extension.TouchBar.showPreview",
                 "title": "Preview"
             }
         ],
@@ -65,7 +65,7 @@
                     "group": "navigation"
                 },
                 {
-                    "command": "markdown.showPreview",
+                    "command": "extension.TouchBar.showPreview",
                     "group": "navigation"
                 }
             ]
