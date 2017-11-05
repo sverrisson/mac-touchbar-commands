@@ -2,11 +2,17 @@
     "name": "mac-touchbar-commands",
     "displayName": "Mac Touch Bar Commands",
     "description": "Mac Touch Bar Commands for a faster workflow with useful commands.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "sverrisson-ruv",
     "author": {
         "name": "Hannes Sverrisson"
     },
+    "homepage": "https://github.com/sverrisson/mac-touchbar-commands",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sverrisson/mac-touchbar-commands.git"
+    },
+    "bugs": "https://github.com/sverrisson/mac-touchbar-commands/issues",
     "engines": {
         "vscode": "^1.17.0"
     },
