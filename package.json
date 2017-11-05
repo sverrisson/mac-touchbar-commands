@@ -2,7 +2,7 @@
     "name": "mac-touchbar-commands",
     "displayName": "Mac Touch Bar Commands",
     "description": "Mac Touch Bar Commands for a faster workflow with useful commands.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "sverrisson-ruv",
     "author": {
         "name": "Hannes Sverrisson"
@@ -26,16 +26,11 @@
         "commands": [
             {
                 "command": "extension.TouchBar.Term",
-                "title": "Term",
-                "icon": {
-                    "light": "./images/noun_741575_cc.svg",
-                    "dark": "./images/noun_741575_cc.svg"
-                }
+                "title": "Term"
             },
             {
                 "command": "extension.TouchBar.Comment",
-                "title": "//",
-                "icon": "images/TouchbarIcon22@2.png"
+                "title": "//"
             },
             {
                 "command": "extension.TouchBar.Qopen",
@@ -59,9 +54,7 @@
                 },
                 {
                     "command": "extension.TouchBar.Comment",
-                    "when": "editorHasSelection",
-                    "group": "1_modification",
-                    "icon": "./images/TouchbarIcon22@2.png"
+                    "group": "1_modification"
                 },
                 {
                     "command": "extension.TouchBar.Qopen",
@@ -73,23 +66,7 @@
                 },
                 {
                     "command": "markdown.showPreview",
-                    "when": "editorLangId == markdown",
-                    "group": "navigation",
-                    "icon": {
-                        "light": "./images/noun_741575_cc.svg",
-                        "dark": "./images/noun_741575_cc.svg"
-                    }
-                  }
-            ],
-            "commandPalette": [
-                {
-                    "command": "extension.TouchBar.Term",
                     "group": "navigation"
-                },
-                {
-                    "command": "extension.TouchBar.Comment",
-                    "when": "editorHasSelection",
-                    "group": "1_modification"
                 }
             ]
         }
