@@ -11,8 +11,6 @@ Qopen -> Quick Open any file etc.
 Commands -> Open the command pallette.
 Preview -> Show Markdown Preview
 
-\!\[Touch Bar with commands\]\(images/Touch Bar Commands.png\)
-
 ## Requirements
 
 A computer or keyboard with Touch Bar is required.
