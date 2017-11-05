@@ -2,7 +2,7 @@
     "name": "mac-touchbar-commands",
     "displayName": "Mac Touch Bar Commands",
     "description": "Mac Touch Bar Commands for a faster workflow with useful commands.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "sverrisson-ruv",
     "author": {
         "name": "Hannes Sverrisson"
@@ -48,24 +48,23 @@
             "touchBar": [
                 {
                     "command": "extension.TouchBar.Term",
-                    "group": "navigation",
-                    "icon": "images/TouchbarIcon22@2.png"
+                    "group": "9_touchbar"
                 },
                 {
                     "command": "extension.TouchBar.Comment",
-                    "group": "1_modification"
+                    "group": "9_touchbar"
                 },
                 {
                     "command": "extension.TouchBar.Qopen",
-                    "group": "navigation"
+                    "group": "9_touchbar"
                 },
                 {
                     "command": "extension.TouchBar.Commands",
-                    "group": "navigation"
+                    "group": "9_touchbar"
                 },
                 {
                     "command": "extension.TouchBar.showPreview",
-                    "group": "navigation"
+                    "group": "9_touchbar"
                 }
             ]
         }
