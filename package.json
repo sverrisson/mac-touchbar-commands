@@ -2,7 +2,7 @@
     "name": "mac-touchbar-commands",
     "displayName": "Mac Touch Bar Commands",
     "description": "Mac Touch Bar Commands for a faster workflow with useful commands.",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "publisher": "sverrisson-ruv",
     "author": {
         "name": "Hannes Sverrisson"

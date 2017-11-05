@@ -24,9 +24,11 @@ Please send requests for commands or changes on Github: https://github.com/sverr
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 1.2.1
 
-### 1.0.1
+Fixed images
+
+### 1.1.0
 
 Fixed grouping of menus
 
