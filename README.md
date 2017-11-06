@@ -39,7 +39,7 @@ Please send requests for commands or changes on Github: https://github.com/sverr
 
 ## Release Notes
 
-### 1.3.2
+### 1.3.3
 
 Colors added.
 

@@ -2,7 +2,7 @@
     "name": "touchbar-commands",
     "displayName": "Touch Bar Commands",
     "description": "Touch Bar Commands for a faster workflow with useful commands.",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "publisher": "sverrisson-ruv",
     "author": {
         "name": "Hannes Sverrisson",
@@ -36,7 +36,7 @@
         "onCommand:extension.TouchBar.ToggleSidebar"
     ],
     "main": "./out/extension",
-    "icon": "TouchBarAlpha128.png",
+    "icon": "TouchBarAlpha_128.png",
     "galleryBanner": {
         "color": "#1E90FF",
         "theme": "dark"
