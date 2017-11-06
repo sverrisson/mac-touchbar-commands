@@ -5,6 +5,9 @@ Touch Bar commands for easy and fast access.
 ## Features
 
 Touch Bar commands for easy and fast access. 
+
+![Touch Bar with commands](https://github.com/sverrisson/mac-touchbar-commands/blob/master/src/images/TouchBarCommands.png?raw=true "Touch Bar with commands")
+
 ```
 // -> Toggle comments on selected lines on/off.
 Commands -> Open the command pallette.
@@ -13,8 +16,6 @@ Qopen -> Quick Open any file etc.
 Term -> Toggle the built in terminal on/off.
 Sidebar -> Toggle sidebar on/off.
 ```
-
-![Touch Bar with commands](https://github.com/sverrisson/mac-touchbar-commands/blob/master/src/images/TouchBarCommands.png?raw=true "Touch Bar with commands")
 
 ## Configuration
 
