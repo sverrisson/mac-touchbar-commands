@@ -10,9 +10,9 @@ Touch Bar commands for easy and fast access.
 
 ```
 // -> Toggle comments of all selected lines on/off.
-Commands -> Open the command pallette.
+Commands -> Open the command pallette, esc to close.
 Preview -> Show Markdown Preview.
-Qopen -> Quick Open any file etc.
+Qopen -> Quick Open any file etc., esc to close.
 Term -> Toggle the built in terminal on/off.
 Sidebar -> Toggle sidebar on/off.
 ```
