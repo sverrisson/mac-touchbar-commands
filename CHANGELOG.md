@@ -1,5 +1,9 @@
 # Change Log
 
+### 1.3.0
+
+Configuration to turn off commands.
+
 ### 1.2.1
 
 Fixed images
