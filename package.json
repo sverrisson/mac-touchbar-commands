@@ -38,7 +38,7 @@
     "main": "./out/extension",
     "icon": "TouchBarAlpha128.png",
     "galleryBanner": {
-        "color": "#56098c",
+        "color": "#1E90FF",
         "theme": "dark"
     },
     "contributes": {
