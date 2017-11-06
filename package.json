@@ -35,7 +35,11 @@
         "onCommand:extension.TouchBar.ToggleSidebar"
     ],
     "main": "./out/extension",
-    "icon": "TouchBar128.png",
+    "icon": "TouchBarAlpha128.png",
+    "galleryBanner": {
+        "color": "#56098c",
+        "theme": "dark"
+    },
     "contributes": {
         "commands": [
             {
