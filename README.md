@@ -9,7 +9,7 @@ Touch Bar commands for easy and fast access.
 ![Touch Bar with commands](https://github.com/sverrisson/mac-touchbar-commands/blob/master/src/images/TouchBarCommands.png?raw=true "Touch Bar with commands")
 
 ```
-// -> Toggle comments on selected lines on/off.
+// -> Toggle comments of all selected lines on/off.
 Commands -> Open the command pallette.
 Preview -> Show Markdown Preview.
 Qopen -> Quick Open any file etc.
