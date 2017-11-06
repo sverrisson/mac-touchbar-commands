@@ -1,5 +1,9 @@
 # Change Log
 
+### 1.3.1
+
+Colors added.
+
 ### 1.3.0
 
 Configuration to turn off commands.
