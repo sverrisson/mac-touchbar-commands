@@ -2,7 +2,7 @@
     "name": "touchbar-commands",
     "displayName": "Touch Bar Commands",
     "description": "Touch Bar Commands for a faster workflow with useful commands.",
-    "version": "1.3.4",
+    "version": "1.3.5",
     "publisher": "sverrisson-ruv",
     "author": {
         "name": "Hannes Sverrisson",
@@ -25,15 +25,21 @@
         "touch bar",
         "touchbar",
         "Mac",
-        "dev"
+        "dev",
+        "macbook",
+        "touch bar",
+        "vscode",
+        "visual studio code",
+        "macbook pro",
+        "developers",
+        "buttons"
     ],
     "activationEvents": [
-        "onCommand:extension.TouchBar.Term",
-        "onCommand:extension.TouchBar.Comment",
-        "onCommand:extension.TouchBar.Qopen",
-        "onCommand:extension.TouchBar.Commands",
-        "onCommand:extension.TouchBar.ShowPreview",
-        "onCommand:extension.TouchBar.ToggleSidebar"
+        "onCommand:extension.touchBar.term",
+        "onCommand:extension.touchBar.comment",
+        "onCommand:extension.touchBar.qopen",
+        "onCommand:extension.touchBar.commands",
+        "onCommand:extension.touchBar.toggleSidebar"
     ],
     "main": "./out/extension",
     "icon": "TouchBarAlpha_128.png",
@@ -44,61 +50,57 @@
     "contributes": {
         "commands": [
             {
-                "command": "extension.TouchBar.Term",
+                "command": "extension.touchBar.term",
+                "group": "touchBar",
                 "title": "Term"
             },
             {
-                "command": "extension.TouchBar.Comment",
+                "command": "extension.touchBar.comment",
+                "group": "touchBar",
                 "title": "//"
             },
             {
-                "command": "extension.TouchBar.Qopen",
+                "command": "extension.touchBar.qopen",
+                "group": "touchBar",
                 "title": "Qopen"
             },
             {
-                "command": "extension.TouchBar.Commands",
+                "command": "extension.touchBar.commands",
+                "group": "touchBar",
                 "title": "Commands"
             },
             {
-                "command": "extension.TouchBar.ShowPreview",
-                "title": "Preview"
-            },
-            {
-                "command": "extension.TouchBar.ToggleSidebar",
+                "command": "extension.touchBar.toggleSidebar",
+                "group": "touchBar",
                 "title": "Sidebar"
             }
         ],
         "menus": {
             "touchBar": [
                 {
-                    "command": "extension.TouchBar.Term",
-                    "group": "TouchBar",
-                    "when": "config.TouchBar.Term"
+                    "command": "extension.touchBar.term",
+                    "group": "touchBar",
+                    "when": "config.touchBar.term"
                 },
                 {
-                    "command": "extension.TouchBar.Comment",
-                    "group": "TouchBar",
-                    "when": "config.TouchBar.Comment"
+                    "command": "extension.touchBar.comment",
+                    "group": "touchBar",
+                    "when": "config.touchBar.comment"
                 },
                 {
-                    "command": "extension.TouchBar.Qopen",
-                    "group": "TouchBar",
-                    "when": "config.TouchBar.Qopen"
+                    "command": "extension.touchBar.qopen",
+                    "group": "touchBar",
+                    "when": "config.touchBar.qopen"
                 },
                 {
-                    "command": "extension.TouchBar.Commands",
-                    "group": "TouchBar",
-                    "when": "config.TouchBar.Commands"
+                    "command": "extension.touchBar.commands",
+                    "group": "touchBar",
+                    "when": "config.touchBar.commands"
                 },
                 {
-                    "command": "extension.TouchBar.ShowPreview",
-                    "group": "TouchBar",
-                    "when": "config.TouchBar.ShowPreview"
-                },
-                {
-                    "command": "extension.TouchBar.ToggleSidebar",
-                    "group": "TouchBar",
-                    "when": "config.TouchBar.ToggleSidebar"
+                    "command": "extension.touchBar.toggleSidebar",
+                    "group": "touchBar",
+                    "when": "config.touchBar.toggleSidebar"
                 }
             ]
         },
@@ -107,32 +109,27 @@
                 "type": "object",
                 "title": "Touch Bar Commands",
                 "properties": {
-                    "TouchBar.Term": {
+                    "touchBar.term": {
                         "type": "boolean",
                         "default": true,
                         "description": "Toggle the built in terminal on/off"
                     },
-                    "TouchBar.Comment": {
+                    "touchBar.comment": {
                         "type": "boolean",
                         "default": true,
                         "description": "Toggle comments on selected lines on/off"
                     },
-                    "TouchBar.Qopen": {
+                    "touchBar.qopen": {
                         "type": "boolean",
                         "default": true,
                         "description": "Quick Open any file etc."
                     },
-                    "TouchBar.Commands": {
+                    "touchBar.commands": {
                         "type": "boolean",
                         "default": true,
                         "description": "Open the command pallette"
                     },
-                    "TouchBar.ShowPreview": {
-                        "type": "boolean",
-                        "default": true,
-                        "description": "Show Markdown Preview"
-                    },
-                    "TouchBar.ToggleSidebar": {
+                    "touchBar.toggleSidebar": {
                         "type": "boolean",
                         "default": true,
                         "description": "Toggle sidebar on/off"
@@ -149,9 +146,9 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.5.3",
-        "vscode": "^1.1.5",
-        "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "@types/mocha": "^2.2.48",
+        "@types/node": "^7.0.55",
+        "typescript": "^2.7.2",
+        "vscode": "^1.1.10"
     }
 }

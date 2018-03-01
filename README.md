@@ -11,7 +11,6 @@ Touch Bar commands for easy and fast access.
 ```
 // -> Toggle comments of all selected lines on/off.
 Commands -> Open the command pallette, esc to close.
-Preview -> Show Markdown Preview.
 Qopen -> Quick Open any file etc., esc to close.
 Term -> Toggle the built in terminal on/off.
 Sidebar -> Toggle sidebar on/off.
@@ -23,7 +22,6 @@ Add settings in your "User Settings" for turning Touch Bar commands off:
 ```
 "TouchBar.Comment": false,
 "TouchBar.Commands": false,
-"TouchBar.ShowPreview": false,
 "TouchBar.Qopen": false,
 "TouchBar.Term": false,
 "TouchBar.ToggleSidebar": false
@@ -31,13 +29,17 @@ Add settings in your "User Settings" for turning Touch Bar commands off:
 
 ## Requirements
 
-A computer or keyboard with Touch Bar is required.
+A computer or keyboard with Touch Bar is required. Version 1.17 minimum of VS Code.
 
 ## Source
 
 Please send requests for commands or changes on Github: https://github.com/sverrisson/mac-touchbar-commands
 
 ## Release Notes
+
+### 1.3.5
+
+Removed Preview for Markdown command.
 
 ### 1.3.4
 

@@ -1,5 +1,9 @@
 # Change Log
 
+### 1.3.5
+
+Removed Preview for Markdown command.
+
 ### 1.3.4
 
 Colors added and image updated.
