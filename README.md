@@ -1,10 +1,6 @@
 # Touch Bar Commands
 Touch Bar commands for easy and fast access.
 
-[![Latest Release](http://vsmarketplacebadge.apphb.com/version/mac-touchbar-commands.svg)](https://marketplace.visualstudio.com/items?itemName=sverrisson-ruv.touchbar-commands)
-[![Installs](http://vsmarketplacebadge.apphb.com/installs/mac-touchbar-commands.svg)](https://marketplace.visualstudio.com/items?itemName=sverrisson-ruv.touchbar-commands)
-[![Rating](http://vsmarketplacebadge.apphb.com/rating/mac-touchbar-commands.svg)](https://marketplace.visualstudio.com/items?itemName=sverrisson-ruv.touchbar-commands#overview)
-
 ## Features
 
 Touch Bar commands for easy and fast access. 
