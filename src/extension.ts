@@ -27,6 +27,10 @@ export function activate(context: vscode.ExtensionContext) {
         {   
             'command': 'extension.touchBar.toggleSidebar',
             'action': 'workbench.action.toggleSidebarVisibility'
+        },
+        {   
+            'command': 'extension.touchBar.ftpSync',
+            'action': 'extension.ftpsyncupload'
         }
     ]
 
