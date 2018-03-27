@@ -1,5 +1,9 @@
 # Change Log
 
+### 1.5.0
+
+Improved instructions.
+
 ### 1.4.0
 
 FTP command added (note: requires ftp-sync extension).

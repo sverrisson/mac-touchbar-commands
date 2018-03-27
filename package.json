@@ -2,7 +2,7 @@
     "name": "touchbar-commands",
     "displayName": "Touch Bar Commands",
     "description": "Touch Bar Commands for a faster workflow with useful commands.",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "publisher": "sverrisson-ruv",
     "author": {
         "name": "Hannes Sverrisson",

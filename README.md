@@ -43,6 +43,10 @@ Please send requests for commands or changes on Github: https://github.com/sverr
 
 ## Release Notes
 
+### 1.5.0
+
+Improved instructions.
+
 ### 1.4.0
 
 FTP command added (note: requires ftp-sync extension).
