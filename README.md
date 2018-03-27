@@ -1,5 +1,5 @@
 # Touch Bar Commands
-Touch Bar commands for easy and fast access.
+Touch Bar commands for easy and fast access for common tasks.
 
 ## Features
 
@@ -17,6 +17,7 @@ FTP -> FTP sync files *.
 ```
 `*` Requires extension: [ftp-sync](https://marketplace.visualstudio.com/items?itemName=lukasz-wronski.ftp-sync) Turned off by default, see configuration to allow.
 
+Note: If the commands are not showing then turn one of them off (see configuration) for additional space for the commands to show up.
 
 ## Configuration
 
