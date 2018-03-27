@@ -13,7 +13,7 @@ Commands -> Open the command pallette, esc to close.
 Qopen -> Quick Open any file etc., esc to close.
 Term -> Toggle the built in terminal on/off.
 Sidebar -> Toggle sidebar on/off.
-FTP -> FTP sync files *.
+FTP→ -> FTP sync files *.
 ```
 `*` Requires extension: [ftp-sync](https://marketplace.visualstudio.com/items?itemName=lukasz-wronski.ftp-sync) Turned off by default, see configuration to allow.
 
