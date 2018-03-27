@@ -2,7 +2,7 @@
     "name": "touchbar-commands",
     "displayName": "Touch Bar Commands",
     "description": "Touch Bar Commands for a faster workflow with useful commands.",
-    "version": "1.3.5",
+    "version": "1.4.0",
     "publisher": "sverrisson-ruv",
     "author": {
         "name": "Hannes Sverrisson",
@@ -71,7 +71,7 @@
             {
                 "command": "extension.touchBar.ftpSync",
                 "group": "touchBar",
-                "title": "FTP"
+                "title": "FTP→"
             }
         ],
         "menus": {
@@ -135,13 +135,13 @@
                     },
                     "touchBar.toggleSidebar": {
                         "type": "boolean",
-                        "default": false,
+                        "default": true,
                         "description": "Toggle sidebar on/off"
                     },
                     "touchBar.ftpSync": {
                         "type": "boolean",
-                        "default": true,
-                        "description": "FTP sync"
+                        "default": false,
+                        "description": "FTP sync project with ftp-sync"
                     }
                 }
             }

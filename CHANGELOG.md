@@ -1,5 +1,9 @@
 # Change Log
 
+### 1.4.0
+
+FTP command added (note: requires ftp-sync extension).
+
 ### 1.3.5
 
 Removed Preview for Markdown command.
@@ -14,12 +18,12 @@ Configuration to turn off commands.
 
 ### 1.2.1
 
-Fixed images
+Fixed images.
 
 ### 1.1.0
 
-Fixed grouping of menus
+Fixed grouping of menus.
 
 ### 1.0.0
 
-Initial release
+Initial release.

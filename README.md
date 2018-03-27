@@ -13,18 +13,23 @@ Commands -> Open the command pallette, esc to close.
 Qopen -> Quick Open any file etc., esc to close.
 Term -> Toggle the built in terminal on/off.
 Sidebar -> Toggle sidebar on/off.
+FTP -> FTP sync files *.
 ```
+`*` Requires extension: [ftp-sync](https://marketplace.visualstudio.com/items?itemName=lukasz-wronski.ftp-sync) Turned off by default, see configuration to allow.
+
 
 ## Configuration
 
-Add settings in your "User Settings" for turning Touch Bar commands off:
+Add settings in your "User Settings" for turning Touch Bar commands off/on:
 ```
-"TouchBar.Comment": false,
-"TouchBar.Commands": false,
-"TouchBar.Qopen": false,
-"TouchBar.Term": false,
-"TouchBar.ToggleSidebar": false
+"touchBar.comment": false,
+"touchBar.commands": false,
+"touchBar.qopen": false,
+"touchBar.term": false,
+"touchBar.toggleSidebar": false,
+"touchBar.ftpSync": true,
 ```
+Goto `Code` → `Preferences` → `Settings` and then paste in command from above.
 
 ## Requirements
 
@@ -35,6 +40,10 @@ A computer or keyboard with Touch Bar is required. Version 1.17 minimum of VS Co
 Please send requests for commands or changes on Github: https://github.com/sverrisson/mac-touchbar-commands
 
 ## Release Notes
+
+### 1.4.0
+
+FTP command added (note: requires ftp-sync extension).
 
 ### 1.3.5
 
@@ -50,12 +59,12 @@ Configuration to turn off commands.
 
 ### 1.2.1
 
-Fixed images
+Fixed images.
 
 ### 1.1.0
 
-Fixed grouping of menus
+Fixed grouping of menus.
 
 ### 1.0.0
 
-Initial release
+Initial release.
