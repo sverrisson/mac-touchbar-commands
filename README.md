@@ -43,7 +43,7 @@ Please send requests for commands or changes on Github: https://github.com/sverr
 
 ## Release Notes
 
-### 1.5.0
+### 1.5.1
 
 Improved instructions.
 
