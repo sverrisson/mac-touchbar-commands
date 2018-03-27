@@ -33,7 +33,7 @@ Goto `Code` → `Preferences` → `Settings` and then paste in command from abov
 
 ## Requirements
 
-A computer or keyboard with Touch Bar is required. Version 1.17 minimum of VS Code.
+A computer or keyboard with Touch Bar is required. Version 1.17 minimum of VS Code. For the ftp command, the ftp extension is required: [ftp-sync](https://marketplace.visualstudio.com/items?itemName=lukasz-wronski.ftp-sync)
 
 ## Source
 
@@ -68,3 +68,7 @@ Fixed grouping of menus.
 ### 1.0.0
 
 Initial release.
+
+## Authors
+- Hannes Sverrisson
+- Adam Prancz
