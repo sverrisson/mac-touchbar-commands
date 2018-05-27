@@ -2,7 +2,7 @@
     "name": "touchbar-commands",
     "displayName": "Touch Bar Commands",
     "description": "Touch Bar Commands for a faster workflow with useful commands.",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "publisher": "sverrisson-ruv",
     "author": {
         "name": "Hannes Sverrisson",
@@ -148,16 +148,16 @@
         ]
     },
     "scripts": {
-        "vscode:prepublish": "npm run compile",
-        "compile": "tsc -p ./",
+        "vscode:prepublish": "tsc -p ./",
+        "compile": "tsc -watch -p ./",
         "watch": "tsc -watch -p ./",
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
         "@types/mocha": "^2.2.48",
-        "@types/node": "^7.0.55",
-        "typescript": "^2.7.2",
-        "vscode": "^1.1.10"
+        "@types/node": "^7.0.65",
+        "typescript": "^2.8.3",
+        "vscode": "^1.1.18"
     }
 }

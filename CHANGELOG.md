@@ -1,5 +1,9 @@
 # Change Log
 
+### 1.5.2
+
+Updated packages.
+
 ### 1.5.0
 
 Improved instructions.
