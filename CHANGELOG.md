@@ -1,6 +1,6 @@
 # Change Log
 
-### 1.5.3
+### 1.6.0
 
 Updated dependencies.
 
