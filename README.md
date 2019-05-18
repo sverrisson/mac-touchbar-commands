@@ -43,6 +43,10 @@ Please send requests for commands or changes on Github: https://github.com/sverr
 
 ## Release Notes
 
+### 1.5.3
+
+Updated dependencies.
+
 ### 1.5.2
 
 Updated packages.
